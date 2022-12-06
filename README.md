@@ -13,14 +13,14 @@ from auto_smooth import auto_savgol
 # apply savgol filter
 data_filtered = auto_savgol(data)
 
->>> wl_best= 7, po_best= 2
+>>> wl_best=7, po_best=2
 ```
 
 ![original_vs_smooth](docs/images/original_vs_smooth.png)
 
 ## Savitzky-Golay Filtering
 
-Savitzky–Golay (Abraham Savitzky and Marcel J. E. Golay) filter is a type of low-pass filter used for smoothing noisy data.[^1] It is based on local least-squares fitting[^2].
+Savitzky–Golay (Abraham Savitzky and Marcel J. E. Golay) filter is a type of low-pass filter used for smoothing noisy data.[^1] It is based on local least-squares fitting.[^2]
 
 `auto_savgol` method applies a Savitzky–Golay filter using the [scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.savgol_filter.html) `savgol_filter()` method.
 
