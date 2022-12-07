@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto_smooth"
+version = "0.1.0"
+authors = [{ name = "Kaymal", email = "gutkyle@gmail.com" }]
+description = "Apply auto smoothing to a time series."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["pandas", "numpy", "scipy"]
+
+[project.urls]
+repository = "https://github.com/kaymal/auto-smooth"
+
+[tool.setuptools]
+packages = ["auto_smooth"]
