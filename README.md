@@ -31,7 +31,7 @@ from auto_smooth import auto_savgol
 # apply savgol filter
 data_filtered = auto_savgol(data)
 
-# pass window-length and polynomial order parameters
+# pass window-length and polynomial-order arguments
 data_filtered = auto_savgol(data, wl_min=10, wl_max=30, po_min=2, po_max=10)
 ```
 
