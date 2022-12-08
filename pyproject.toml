@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "auto_smooth"
 version = "0.1.0"
 authors = [{ name = "Kaymal", email = "gutkyle@gmail.com" }]
-description = "Apply auto smoothing to a time series."
+description = "Apply auto smoothing to a time series data."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = ["Programming Language :: Python :: 3"]
