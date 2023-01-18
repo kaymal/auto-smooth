@@ -1,5 +1,8 @@
 # Auto Smooth
 
+[![License](https://img.shields.io/github/license/kaymal/auto-smooth)](https://github.com/kaymal/auto-smooth/blob/main/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 Apply data smoothing/filtering to a time series by automatically selecting parameters.
 
 Currently available smoothing/filtering techniques in the package:
